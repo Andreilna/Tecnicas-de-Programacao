@@ -24,7 +24,7 @@ public class Principal {
                 JOptionPane.showMessageDialog(null, "Finalizando programa!");
                 break;
             default:
-                JOptionPane.showMessageDialog(null, "Opção valida!");
+                JOptionPane.showMessageDialog(null, "Opção invalida!");
             }
         } while(op != 0);
     }
